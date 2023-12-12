@@ -1,5 +1,5 @@
 *.db
 *.py[cod]
+.DS_Store
 .web
 __pycache__/
-.DS_Store
