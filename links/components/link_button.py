@@ -9,7 +9,6 @@ def link_button(title:str, body:str,  url:str) -> rx.Component:
                 rx.icon(
                     tag = "arrow_forward",
                     font_size =Size.LARGE.value,
-                    width =Size.BIG.value,
                     heigth = Size.BIG.value,
                     margin = Size.SMALL.value
                 ),

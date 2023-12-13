@@ -42,24 +42,23 @@ BASE_STYLE = {
     
 title_style_navbar = dict (
     font_family = Font.LOGO.value,
-    font_size = Size.LARGE.value
-            
+    font_size = Size.LARGE.value        
 )
 
-title_style = dict ( 
+title_style = dict (
+    font_family = Font.TITLE.value,
     width="100%",
     padding_top =Size.DEFAULT.value,
     color = TextColor.HEADER.value
 )
 
 button_title_style = dict(
-font_size = Size.DEFAULT.value,
+    font_size = Size.DEFAULT.value,
     color = TextColor.HEADER.value
 
 )
 
 button_body_style = dict (
-    font_size = Size.MEDIUM.value,
-    color = TextColor.BODY.value
-
+    font_size = Size.DEFAULT.value,
+    color = TextColor.BODY.value,
 )

@@ -1,6 +1,5 @@
 """Welcome to Reflex! This file outlines the steps to create a basic app."""
 from os import link
-from links.components.link_button import link_button
 from rxconfig import config
 import reflex as rx
 from links.components.navbar import navbar

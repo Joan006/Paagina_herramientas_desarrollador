@@ -3,6 +3,7 @@ import reflex as rx
 from links.components.title import title
 from links.components.link_button import link_button
 from links.styles.styles import Size as Size
+from links.styles.colors import TextColor as TextColor 
 
 
 def acordingPython() -> rx.Component:
@@ -10,19 +11,22 @@ def acordingPython() -> rx.Component:
         rx.accordion_item(
             rx.accordion_button(
                 title("Librerias Python"),
-                rx.accordion_icon(),
+                rx.accordion_icon(
+                    color = TextColor.HEADER.value,
+                    font_size = Size.LARGE.value
+                ),
             ),
             rx.accordion_panel(
                 rx.vstack(
                     link_button(
                         "Numpy",
-                        """Tabaja con arreglos, matrices y una gran variedad de funciones
+                        """Arreglos, matrices y variedad de funciones
                     matematicas.""",
                         "https://numpy.org/doc/stable/",
                     ),
                     link_button(
                         "Pandas",
-                        "utilizada para manipular, analizar y visualizar datos de manera eficiene",
+                        "Manipular, analizar y visualizar datos de manera eficiene",
                         "https://numpy.org/doc/stable/",
                     ),
                     link_button(
@@ -43,6 +47,7 @@ def acordingPython() -> rx.Component:
                     margin=Size.MEDIUM.value,
                 ),
             ),
+            border_bottom_width="inherit !important",
             border_top_width="inherit !important",
         ),
         allow_toggle=True,
@@ -57,7 +62,10 @@ def acording_front() -> rx.Component:
         rx.accordion_item(
             rx.accordion_button(
                 title("Herramientas Frontend"),
-                rx.accordion_icon(),
+                rx.accordion_icon(
+                    color = TextColor.HEADER.value,
+                    font_size = Size.LARGE.value
+                ),
             ),
             rx.accordion_panel(
                 rx.vstack(
@@ -84,6 +92,7 @@ def acording_front() -> rx.Component:
                     margin=Size.MEDIUM.value,
                 ),
             ),
+            border_bottom_width="inherit !important",
             border_top_width="inherit !important",
         ),
         allow_toggle=True,
