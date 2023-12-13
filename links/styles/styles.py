@@ -2,7 +2,7 @@ import reflex as rx
 from enum import Enum
 from .colors import Colors as Colors 
 from .colors import TextColor as TextColor
-from .fonts import Font as Font
+from .fonts import Fonts as Fonts
 # constants
 MAX_WIDTH = "600px"
 
@@ -15,12 +15,13 @@ class Size(Enum):
     DEFAULT = "1em" 
     LARGE = "1.5em"
     BIG = "2em"
+    VERY_BIG = "4em"
 
 
 # styles
 
 BASE_STYLE = {
-    "font_family": Font.DEFAULT.value,
+    "font_family": Fonts.DEFAULT.value,
     "background_color":Colors.BACKGROUND.value,
     rx.Button: {
         "width": "100%",
@@ -41,12 +42,11 @@ BASE_STYLE = {
 }
     
 title_style_navbar = dict (
-    font_family = Font.LOGO.value,
+    font_family = Fonts.LOGO.value,
     font_size = Size.LARGE.value        
 )
 
 title_style = dict (
-    font_family = Font.TITLE.value,
     width="100%",
     padding_top =Size.DEFAULT.value,
     color = TextColor.HEADER.value
@@ -59,6 +59,6 @@ button_title_style = dict(
 )
 
 button_body_style = dict (
-    font_size = Size.DEFAULT.value,
+    font_size = Size.MEDIUM.value,
     color = TextColor.BODY.value,
 )

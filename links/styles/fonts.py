@@ -1,6 +1,6 @@
 from enum import Enum
 
-class Font(Enum):
-    DEFAULT = "Poppins"
-    TITLE = "Poppins-Medium"
-    LOGO = "Orbitron-Medium"
+class Fonts(Enum):
+    DEFAULT = "sans-serif"
+    TITLE = "sans-serif"
+    LOGO = "monospace"

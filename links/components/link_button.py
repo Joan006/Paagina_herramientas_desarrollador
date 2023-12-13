@@ -2,12 +2,12 @@ import reflex as rx
 import links.styles.styles as styles
 from links.styles.styles import Size as Size
 
-def link_button(title:str, body:str,  url:str) -> rx.Component:
+def link_button(title:str, body:str,url:str, image:str ) -> rx.Component:
     return rx.link(
         rx.button(
             rx.hstack(
-                rx.icon(
-                    tag = "arrow_forward",
+                rx.image(
+                    src = image,
                     font_size =Size.LARGE.value,
                     heigth = Size.BIG.value,
                     margin = Size.SMALL.value
@@ -18,7 +18,6 @@ def link_button(title:str, body:str,  url:str) -> rx.Component:
                     spacing = Size.SMALL.value,
                     align_items="start",
                     margin = Size.ZERO.value,
-                    padding_y=Size.SMALL.value
                 )
             )
         ),

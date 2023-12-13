@@ -7,7 +7,10 @@ from links.styles.colors import TextColor as TextColor
 
 def footer() -> rx.Component:
     return rx.vstack(
-        rx.image(src="favicon.ico"),
+        rx.image(
+            src="ipn.png",
+            height = Size.VERY_BIG.value   
+        ),
         rx.link(
             f"(a) 2014-{datetime.date.today().year} Joan Martinez Olivares.",
             href="https://mouredev.com",
