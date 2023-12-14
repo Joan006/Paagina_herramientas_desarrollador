@@ -32,19 +32,32 @@ def links() -> rx.Component:
             "freecodecamp",
             "Aprende desde cero a programar",
             "https://www.freecodecamp.org/learn/",
-            "icons/code-solid.svg"
+            "icons/laptop-code-solid.svg"
         ),
         link_button(
             "Excercism",
             "Realiza ejercicios del lenguaje que quieras",
             "https://exercism.org/dashboard",
-            "icons/code-solid.svg"
+            "icons/laptop-code-solid.svg"
         ),
         link_button(
             "IDE online",
             "Ejecuta codigo python online",
             "https://www.online-python.com/",
-            "icons/code-solid.svg"
+            "icons/laptop-code-solid.svg"
+        ),
+        title("Mecanografia"),
+        link_button(
+            "Keybr",
+            "Practica mecanografia",
+            "https://www.keybr.com/",
+            "icons/keyboard-regular.svg"
+        ),
+        link_button(
+            "Agilefingers",
+            "Practica Mecanografia",
+            "https://agilefingers.com/es/textos/texto-ejemplo",
+            "icons/keyboard-regular.svg"
         ),
         width="100%",
         spacing=Size.MEDIUM.value,

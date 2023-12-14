@@ -29,9 +29,18 @@ def header() -> rx.Component:
                     margin_top="0px !important"
                 ),
                 rx.hstack(
-                    link_icon("https://x.com/mouredev"),
-                    link_icon("https://x.com/mouredev"),
-                    link_icon("https://x.com/mouredev")
+                    link_icon(
+                        "icons/linkedin.svg",
+                        "linkedin.com/in/martínez-olivares-joan-538a3b287",
+                    ),
+                    link_icon(
+                        "icons/square-github.svg",
+                        "https://github.com/Joan006"
+                    ),
+                    link_icon(
+                        "icons/square-instagram.svg",
+                        "https://x.com/mouredev"
+                    )
                 ),
                 align_items="start",
                 color = TextColor.BODY.value
