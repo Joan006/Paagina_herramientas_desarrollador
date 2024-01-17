@@ -21,7 +21,9 @@ def footer() -> rx.Component:
             "PAGINA DE HERRAMIENTAS DE DESARROLLADOR.",
             font_size= Size.MEDIUM.value,
         ),
-        margin_bottom = Size.BIG.value,
         padding = Size.BIG.value,
-        color = TextColor.FOOTER.value
+        color = TextColor.FOOTER.value,
+        style = {
+            "background_color":"#171f27"
+        },
     )

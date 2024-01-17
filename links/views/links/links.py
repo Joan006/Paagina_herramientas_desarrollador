@@ -61,5 +61,8 @@ def links() -> rx.Component:
         ),
         width="100%",
         spacing=Size.MEDIUM.value,
-        align_items="center"
-    )
+        align_items="center",
+        style = {
+            "background_color":"#0C151D"
+        },
+    )   

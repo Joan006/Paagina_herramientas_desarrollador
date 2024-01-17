@@ -21,8 +21,8 @@ class Size(Enum):
 # styles
 
 BASE_STYLE = {
-    "font_family": Fonts.DEFAULT.value,
-    "background_color":Colors.BACKGROUND.value,
+    "font-family": Fonts.DEFAULT.value,
+    "background_color":"#0C151D",
     rx.Button: {
         "width": "100%",
         "height": "100%",

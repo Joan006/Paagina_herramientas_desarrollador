@@ -22,14 +22,14 @@ def acordingPython() -> rx.Component:
                 rx.vstack(
                     link_button(
                         "Numpy",
-                        """Arreglos, matrices y variedad de funciones
+                        """Variedad de funciones
                     matematicas.""",
                         "https://numpy.org/doc/stable/",
                         "icons/terminal-solid.svg",
                     ),
                     link_button(
                         "Pandas",
-                        "Manipular, analizar y visualizar datos de manera eficiene",
+                        "Manipular, analizar y visualizar datos",
                         "https://numpy.org/doc/stable/",
                         "icons/terminal-solid.svg",
                     ),
@@ -47,7 +47,7 @@ def acordingPython() -> rx.Component:
                 ),
                 link_button(
                     "Django",
-                    "Nos permite manejar el backend con python",
+                    "Manejar backend con python",
                     "https://docs.djangoproject.com/en/4.2/",
                     "icons/terminal-solid.svg",
                 ),
@@ -91,22 +91,46 @@ def acording_front() -> rx.Component:
                         "icons/mug-saucer-solid.svg",
                     ),
                     link_button(
+                        "Icons8",
+                        "Iconos para tu web",
+                        "https://iconos8.es/",
+                        "icons/mug-saucer-solid"
+                    ),
+                    link_button(
                         "Gradiente de colores",
-                        "Podras elegir el gradiente y copiar el codigo",
+                        "Podras elegir el gradiente",
                         "https://mycolor.space/gradient3?ori=circle&hex=%23FBA70C&hex2=%236FD909&hex3=%23FB430C&submit=submit",
                         "icons/mug-saucer-solid.svg",
                     ),
                     link_button(
+                        "RGBA Color Picker",
+                        "Elegir color rgba",
+                        "https://rgbacolorpicker.com/#google_vignette",
+                        "icons/mug-saucer-solid"
+                    ),
+                    link_button(
                         "Plantillas para html",
-                        "variedad de plantillas para tu pagina",
+                        "Plantillas para tu pagina",
                         "https://html5up.net/",
                         "icons/mug-saucer-solid.svg",
                     ),
                     link_button(
                         "Css reference",
-                        "Ideas y componentes con css puro",
+                        "Ideas y componentes",
                         "https://cssreference.io/",
                         "icons/mug-saucer-solid.svg",
+                    ),
+                    link_button(
+                        "ui Verse",
+                        "Componentes UI",
+                        "https://uiverse.io/",
+                        "icons/mug-saucer-solid"
+                    ),
+                    link_button(
+                        "TW Elements",
+                        "Componentes Tailwind",
+                        "https://tw-elements.com/",
+                        "icons/mug-saucer-solid"
                     ),
                     margin=Size.MEDIUM.value,
                 ),

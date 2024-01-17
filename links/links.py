@@ -31,10 +31,10 @@ def index() -> rx.Component:
             ),
         ),
         footer(),
+        background_color = "#0C151D",
     )
 
 
 # Add state and page to the app.
 app = rx.App(style=styles.BASE_STYLE)
 app.add_page(index, title="Janv || Herramientas de Desarrollador")
-app.compile()
